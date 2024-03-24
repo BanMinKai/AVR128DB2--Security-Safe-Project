@@ -1,6 +1,7 @@
 # AVR128DB2--Security-Safe-Project
 
 Peripherals and Features:
+
     - Real Time Counter (RTC)
     - SPI
     - USART
@@ -8,6 +9,7 @@ Peripherals and Features:
     - Input/Sense Configuration (ISC, aka external interrupt)
     - State Machine Design Pattern
 Tools:
+
     - microcontroller (hardware): AVR128DB28
     - Debugger/Programmer (hardware): MPLAB Snap In-Circuti Debugger
     - IDE (software): MPLAB X IDE
