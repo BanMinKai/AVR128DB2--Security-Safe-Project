@@ -1,5 +1,18 @@
 # AVR128DB2--Security-Safe-Project
 
+Peripherals and Features:
+    - Real Time Counter (RTC)
+    - SPI
+    - USART
+    - STANDBY SLEEP
+    - Input/Sense Configuration (ISC, aka external interrupt)
+    - State Machine Design Pattern
+Tools:
+    - microcontroller (hardware): AVR128DB28
+    - Debugger/Programmer (hardware): MPLAB Snap In-Circuti Debugger
+    - IDE (software): MPLAB X IDE
+    
+
 This is the firmware for the project I did for ENEL300. This is my first ever firmware application, so there are still a lot of comments I leave behind as learning reference materials for myself later.
 In this project of Security Safe, we use an AVR microcontroller 
 
