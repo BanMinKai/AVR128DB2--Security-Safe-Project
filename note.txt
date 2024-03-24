@@ -1,6 +1,6 @@
 if the sensor input is not held HIGH for a long enough interval of time, 
 the system wakes up but it does not generate lock()... 
 in other words, for abrupt rising and falling,  
-the system wakes but does nothing else... 
+the system wakes but does nothing else... (wake + unlock()). This electrically helps save battery life
 initially this is a bug... now converted into a feature, 
 which helps prevent "noise" unwanted interrupt
