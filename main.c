@@ -96,7 +96,7 @@ int main()
 	byte = mfrc522_read(DivIEnReg);
 	mfrc522_write(DivIEnReg,byte|0x80);
 	_delay_ms(500);  // somehow, i dont know why it does no count properly
-    // like _delay_ms(1000) delays way shorter than 1000s
+    // like _delay_ms(1000) delays way shorter than 1000ms
     
     
     // initial state is sleep
