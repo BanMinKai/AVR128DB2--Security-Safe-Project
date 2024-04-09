@@ -13,6 +13,13 @@ Tools:
     - microcontroller (hardware): AVR128DB28
     - Debugger/Programmer (hardware): MPLAB Snap In-Circuti Debugger
     - IDE (software): MPLAB X IDE
+
+Visualizations:
+
+    - Sprint2 flowchart                      --> represents previous application structure, which was not scalable as expected
+    - Sprint3 State Machine state diagram    --> represents updated application structure, to incorporate sleep mode and external interrupt
+![image](https://github.com/BanMinKai/AVR128DB2--Security-Safe-Project/assets/115819439/d927c3cb-0269-4323-a0b9-e54633951a12)
+
     
 
 This is the firmware for the project I did for ENEL300. This is my first ever firmware application, so there are still a lot of comments I leave behind as learning reference materials for myself later.
