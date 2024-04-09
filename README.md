@@ -1,6 +1,6 @@
 # AVR128DB2--Security-Safe-Project
 
-Peripherals and Features:
+Peripherals and Features used:
 
     - Real Time Counter (RTC)
     - SPI
@@ -8,7 +8,7 @@ Peripherals and Features:
     - STANDBY SLEEP
     - Input/Sense Configuration (ISC, aka external interrupt)
     - State Machine Design Pattern
-Tools:
+Tools used:
 
     - microcontroller (hardware): AVR128DB28
     - Debugger/Programmer (hardware): MPLAB Snap In-Circuti Debugger
@@ -16,8 +16,11 @@ Tools:
 
 Visualizations:
 
-    - Sprint2 flowchart                      --> represents previous application structure, which was not scalable as expected
-    - Sprint3 State Machine state diagram    --> represents updated application structure, to incorporate sleep mode and external interrupt
+    - Sprint2 flowchart                      --> represents previous application structure,
+                                                 which was not scalable as expected
+    - Sprint3 State Machine state diagram    --> represents updated application structure, 
+                                                 to incorporate sleep mode and external interrupt
+    
 ![image](https://github.com/BanMinKai/AVR128DB2--Security-Safe-Project/assets/115819439/d927c3cb-0269-4323-a0b9-e54633951a12)
 
     
@@ -35,5 +38,26 @@ The firmware design is to base on State Machine pattern. The main feature is to 
     (2) when SLEEP, the system uses data from Motion Sensor as external interrupt source to wake the system up
     (3) when input from Motion Sensor is LOW continously for 5 seconds, the system enters sleep mode (STANDBY)
     (3) Real Time Counter (RTC) are used to time this 5 seconds
+
+Hardware Layout and PCB schematics
+
+
+    disclaimer: I was not the author of the PCB, I put it here for reference. 
+    The PCB was skillfully desgined and completed by Graydon, a teammate in my ENEL300 group
+I 
+![image](https://github.com/BanMinKai/AVR128DB2--Security-Safe-Project/assets/115819439/b7ed3bd2-acee-4123-8f85-8df52c90407d)
+
+![image](https://github.com/BanMinKai/AVR128DB2--Security-Safe-Project/assets/115819439/e692070c-5764-4bb3-803d-1bf9d3c201ce)
+
+![image](https://github.com/BanMinKai/AVR128DB2--Security-Safe-Project/assets/115819439/f495bee4-a71c-4ae4-a4cf-fc330940a3c7)
+
+3D Printed Housing
+
+    disclaimer: the housing was designed and the final integration of circuitry 
+    and 3D housing was completed by Temmulen, another teammate in my group
+    
+![image](https://github.com/BanMinKai/AVR128DB2--Security-Safe-Project/assets/115819439/84967fd8-1d60-4999-a6cb-e15d7966f0f9)
+
+
     
 
