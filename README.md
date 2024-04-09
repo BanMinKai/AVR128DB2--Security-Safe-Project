@@ -43,7 +43,7 @@ Hardware Layout and PCB schematics
 
 
     disclaimer: I was not the author of the PCB, I put it here for reference. 
-    The PCB was skillfully desgined and completed by Graydon, a teammate in my ENEL300 group
+    The PCB was carefully desgined and completed by Graydon, a teammate in my ENEL300 group
 I 
 ![image](https://github.com/BanMinKai/AVR128DB2--Security-Safe-Project/assets/115819439/b7ed3bd2-acee-4123-8f85-8df52c90407d)
 
@@ -53,8 +53,8 @@ I
 
 3D Printed Housing
 
-    disclaimer: the housing was designed and the final integration of circuitry 
-    and 3D housing was completed by Temmulen, another teammate in my group
+    disclaimer: the housing was carefully designed and the final integration of circuitry 
+    and 3D housing was skillfully completed by Temmulen, another teammate in my group
     
 ![image](https://github.com/BanMinKai/AVR128DB2--Security-Safe-Project/assets/115819439/84967fd8-1d60-4999-a6cb-e15d7966f0f9)
 
