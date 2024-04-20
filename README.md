@@ -1,4 +1,4 @@
-# AVR128DB2--Security-Safe-Project
+# AVR128DB28--Security-Safe-Project
 
 Peripherals and Features used:
 
